@@ -1,18 +1,7 @@
-function getImagesPath() {
-  const url = window.location.href;
-  const arr = url.split('/');
-  arr.pop();
-  const lastElem = arr[arr.length - 1];
-
-  if (lastElem === 'search' || lastElem === 'person' || lastElem === 'home') {
-    arr.pop();
-    arr.pop();
-  }
-  return arr.join('/');
-}
+import getMainPath from './getMainPath';
 
 function getFooterHtml() {
-  const imagesPath = getImagesPath();
+  const imagesPath = getMainPath();
   return `
   <div class="container">
     <p class="project-authors text-center">Авторы проекта</p>
