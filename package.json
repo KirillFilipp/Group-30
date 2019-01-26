@@ -1,0 +1,45 @@
+{
+  "name": "dreamteam",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack -p",
+    "watch": "webpack --watch",
+    "dev": "webpack --mode=development",
+    "dev-watch": "webpack --mode=development --watch",
+    "lint": "eslint src"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/KirillFilipp/Group-30.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/KirillFilipp/Group-30/issues"
+  },
+  "homepage": "https://github.com/KirillFilipp/Group-30#readme",
+  "devDependencies": {
+    "babel-core": "^6.26.3",
+    "babel-loader": "^7.1.5",
+    "babel-preset-env": "^1.7.0",
+    "extract-text-webpack-plugin": "^4.0.0-beta.0",
+    "mini-css-extract-plugin": "^0.5.0",
+    "webpack": "^4.27.1",
+    "webpack-cli": "^3.1.2"
+  },
+  "dependencies": {
+    "bootstrap": "^4.1.3",
+    "css-loader": "^2.0.0",
+    "file-loader": "^2.0.0",
+    "image-webpack-loader": "^4.6.0",
+    "jquery": "^3.3.1",
+    "popper.js": "^1.14.6",
+    "style-loader": "^0.23.1",
+    "eslint": "^5.8.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.14.0"
+  }
+}
