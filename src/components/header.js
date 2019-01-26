@@ -15,6 +15,11 @@ const header = `
         </li>        
       </ul>
     </div>
+    <div class="buttons">
+      <button class="buttons_ru translate" id='ru'>RU</button>
+      <button class="buttons_en translate" id='en'>EN</button>
+      <button class="buttons_by translate" id='by'>BY</button>
+    </div>
   </div>
 </nav>
 `;
