@@ -1,0 +1,89 @@
+.wrapper-list-director {
+  padding: 10px;
+}
+
+.wrapper-list-director li {
+  list-style: none;
+  padding: 5px 0px;
+}
+
+.translate {
+  margin: 2px 0 0 0;
+  border-radius: 0px;
+  background-color: #ababab;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 400ms ease;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: normal;
+  box-shadow: 0px 5px 16px 0px rgb(120, 77, 63);
+  border: 0;
+  outline: none;
+}
+
+.translate:hover {
+  box-shadow: 0 0 0 0;
+  color: #000000;
+  outline: none;
+}
+
+.buttons {
+  text-align: right;
+}
+
+.page-search {
+  background-image: url(./images/fon-search3.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 100vh;
+}
+
+.search-form h2 {
+  color: #e65365;
+  margin: 20px 0;
+}
+
+.search-form label {
+  padding: 0 20px;
+  color: #d2b7ad;
+}
+
+#search-term {
+  border: 0;
+}
+
+.search-form input[type="submit"] {
+  margin: 2px 0 0 5px;
+  border-radius: 0px;
+  background-color: #ababab;
+  color: #ffffff;
+  cursor: pointer;
+  transition: all 400ms ease;
+  font-size: 16px;
+  font-family: inherit;
+  font-weight: normal;
+  box-shadow: 0px 5px 16px 0px rgb(120, 77, 63);
+  border: 0;
+  outline: none;
+}
+
+.search-form input[type="submit"]:hover {
+  color: #e65365;
+  box-shadow: 0 0 0 0;
+  outline: none;
+}
+
+.wrapper-list-director a,
+.wrapper-list-director span {
+  color: white;
+}
+
+.wrapper-list-director span {
+  padding-left: 5px;
+}
+
+.wrapper-list-director a:hover {
+  transition: all 400ms ease;
+  color: #e65365;
+}
