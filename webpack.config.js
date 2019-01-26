@@ -1,14 +1,14 @@
 const path = require('path');
-const MiniCssExtractPlugin = require("mini-css-extract-plugin");
+const MiniCssExtractPlugin = require('mini-css-extract-plugin');
 
 module.exports = {
   entry: [
     './src/app.js',
-    './src/style.css'
+    './src/style.css',
   ],
   output: {
     path: path.resolve(__dirname, 'dist'),
-    filename: 'bundle.js'
+    filename: 'bundle.js',
   },
   module: {
     rules: [
@@ -16,12 +16,12 @@ module.exports = {
         test: /\.js$/,
         exclude: /node_modules/,
         use: {
-          loader: "babel-loader"
-        }
+          loader: 'babel-loader',
+        },
       },
       {
         test: /\.css$/,
-        use:  [  'style-loader', MiniCssExtractPlugin.loader, 'css-loader' ]
+        use: ['style-loader', MiniCssExtractPlugin.loader, 'css-loader'],
       },
       {
         test: /\.(gif|png|jpe?g|svg)$/i,
@@ -35,12 +35,12 @@ module.exports = {
             },
           },
         ],
-      }
-    ]
+      },
+    ],
   },
   plugins: [
     new MiniCssExtractPlugin({
       filename: 'style.css',
     }),
   ],
-}
+};

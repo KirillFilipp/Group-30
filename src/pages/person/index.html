@@ -7,7 +7,63 @@
   <link href="../../../dist/style.css" rel="stylesheet" />
 </head>
 <body>
-
+  <div class="wrapper">
+    <div class="container">
+      <header class="header"></header>
+      <div class="buttons">
+        <button class="buttons_ru translate" id='ru'>RU</button>
+        <button class="buttons_en translate" id='en'>EN</button>
+        <button class="buttons_by translate" id='by'>BY</button>
+      </div>
+      <section class="person">
+        <div class="person__info">
+          <div class="person__avatar">
+            <img src="./images/avatar.png" alt="person-avatar" class="person__img">
+          </div>
+          <div class="person__name">
+            <div class="person__first-name lang" key='firstName'>First name</div>
+            <div class="preson__last-name lang" key='lastName'>Last name</div>
+            <div class="person__patronymic lang" key='patronymic'>Patronymic</div>
+          </div>
+        </div>
+        <div class="person__desc lang" key='desc'>Description</div>
+      </section>
+      <section class="works">
+        <h1 class="works__title">Творческая деятельность</h1>
+        <ul class="works__list">
+          <li class="works__item">
+            <div class="work">
+              <div class="work__desc">Lorem ipsum dolor sit amet.</div>
+              <date class="work__date">01.01.1999</date>
+            </div>
+          </li>
+          <li class="works__item">
+            <div class="work">
+              <div class="work__desc">Lorem ipsum dolor sit amet.</div>
+              <date class="work__date">01.01.1999</date>
+            </div>
+          </li>
+          <li class="works__item">
+            <div class="work">
+              <div class="work__desc">Lorem ipsum dolor sit amet.</div>
+              <date class="work__date">01.01.1999</date>
+            </div>
+          </li>
+          <li class="works__item">
+            <div class="work">
+              <div class="work__desc">Lorem ipsum dolor sit amet.</div>
+              <date class="work__date">01.01.1999</date>
+            </div>
+          </li>
+        </ul>
+      </section>
+      <section class="timeline"></section>
+      <section class="gallery"></section>
+      <section class="youtube"></section>
+      <section class="map"></section>
+      <footer class="footer"></footer>
+    </div>
+  </div>
 
 <script src= "../../../dist/bundle.js" ></script>
 </body>
