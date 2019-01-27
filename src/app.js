@@ -10,7 +10,7 @@ import language from './components/vocabulary';
 
 heelo();
 
-heelo3();
+search();
 
 
 addHeader();
