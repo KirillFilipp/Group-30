@@ -5,7 +5,10 @@ export default function search() {
     e.preventDefault();
     const valueInput = new RegExp($('#search-term').val().toLowerCase());
     const nameDirector = [...document.querySelectorAll('.name-director')];
-    const arrName = nameDirector.map(name => name.textContent.toLowerCase());
+    const arrName = nameDirector.map((name, index) => {
+      nameDirector[index].parentNode.style.display = 'block';
+      return name.textContent.toLowerCase();
+    });
 
     const bornDirector = [...document.querySelectorAll('.born-director')];
     const arrCity = bornDirector.map(city => city.textContent.toLowerCase());
