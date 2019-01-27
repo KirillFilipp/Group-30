@@ -1,5 +1,6 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './components/saveLanguageContext';
 import heelo from './pages/home/script';
 import heelo3 from './pages/search/script';
 import addHeader from './components/header';
@@ -9,7 +10,7 @@ import language from './components/vocabulary';
 
 heelo();
 
-heelo3();
+search();
 
 
 addHeader();

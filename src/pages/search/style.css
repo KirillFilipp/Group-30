@@ -86,3 +86,7 @@
   transition: all 400ms ease;
   color: #e65365;
 }
+
+.page-search .wrapper {
+  min-height: 400px;
+}
