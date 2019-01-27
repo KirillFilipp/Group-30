@@ -49,6 +49,7 @@ const language = {
     'fifth-director-born': 'b.p. с. St. Petersburg',
     'years-of-life': 'Years of life:',
     'creative-activity': 'Creative activity',
+    'description-site': 'Belarusian theater history goes back centuries. The Belarusian professional theater has developed from ancient folk rituals, the creative work of strolling musicians, the court troupes of the Belarusian magnates, the activity of amateur groups at the turn of the 19th and 20th centuries. The theater life of Belarus is full of vivid festival events. The scene masters come to Belarus to present their best works for review by theatre workers and spectators. This portal is dedicated to the culture of Belarus, namely the directors of the Theater of Belarus. On the page list of figures you can find information about the directors, their work and the creative stages of life. This website is dedicated to the culture of Belarus, namely to the directors of the Belarus theater. With the search page you can find information about the directors, their works and the creative stages of life.',
     performances: 'Statements of performances',
     'al-per-1': '"Zaporozhets beyond Danube" by S.S. Gulak-Artemovsky',
     'al-per-2': '"Quiet Don" by I.I. Dzerzhinsky',
@@ -80,6 +81,7 @@ const language = {
     'sm-per-2': '"The Queen of Spades"',
     'sm-per-3': '"Prince Igor"',
     'sm-per-4': '"Keto and Kote"',
+    'director-of-the-day': 'Director of the day',
   },
   ru: {
     firstName: 'имя',
@@ -162,6 +164,8 @@ const language = {
     'sm-per-2': '«Пиковая дама»',
     'sm-per-3': '«Князь Игорь»',
     'sm-per-4': '«Кето и Котэ»',
+    'description-site': 'Белорусская театральная история насчитывает не одно столетие. Белорусский профессиональный театр развился из древних народных обрядов, творчества бродячих музыкантов, придворных трупп белорусских магнатов, деятельности любительских коллективов рубежа XIX–XX веков. Театральная жизнь Беларуси насыщена яркими фестивальными событиями. Мастера сцены приезжают в Беларусь, чтобы представить на суд театральных деятелей и зрителей свои лучшие работы. Данный портал посвящен культуре Беларуси, а именно режиссерам театра Беларуси. На странице список деятелей вы сможете найти информацию о режиссерах, их работах и творческих этапах жизни.',
+    'director-of-the-day': 'Режиссер дня',
   },
   by: {
     firstName: 'імя',
@@ -244,6 +248,8 @@ const language = {
     'sm-per-2': '"Пікавая дама"',
     'sm-per-3': '"Князь Ігар"',
     'sm-per-4': '"Кето і Котэ"',
+    'description-site': 'Беларуская тэатральная гісторыя налічвае не адно стагоддзе. Беларускі прафесійны тэатр развіваўся са старажытных народных абрадаў, творчасці вандроўных музыкаў, прыдворных труп беларускіх магнатаў, дзейнасці аматарскіх калектываў рубяжа XIX-XX стагоддзяў. Тэатральнае жыццё Беларусі насычана яркімі фестывальнымі падзеямі. Майстры сцэны прыязджаюць у Беларусь, каб прадставіць на суд тэатральных дзеячаў і гледачоў свае лепшыя работы. Дадзены партал прысвечаны культуры Беларусі, а менавіта рэжысёрам тэатра Беларусі. На старонцы спіс дзеячаў вы зможаце знайсці інфармацыю аб рэжысёраў, іх працах і творчых этапах жыцця.',
+    'director-of-the-day': 'Рэжысёр дня',
   },
 };
 
