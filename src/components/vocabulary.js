@@ -68,6 +68,10 @@ const language = {
     'main-page': 'Main page',
     'search-page': 'List of actors',
     'project-authors': 'Project authors',
+    'dapkiunas-desc': 'Belarusian theatrical figure and organizer of theatrical affairs, the author of the first production in the professional theater of the play by Alexander Vampilov.',
+    'dp-per-1': 'Farewell to June',
+    'dp-per-2': 'Time is not waiting',
+    'dp-per-3': 'Leaving nature',
   },
   ru: {
     firstName: 'имя',
@@ -138,6 +142,10 @@ const language = {
     'main-page': 'Главная',
     'search-page': 'Список деятелей',
     'project-authors': 'Авторы проекта',
+    'dapkiunas-desc': 'белорусский театральный деятель и организатор театрального дела, автор первой постановки в профессиональном театре пьесы Александра Вампилова.',
+    'dp-per-1': '«Прощание в июне»',
+    'dp-per-2': '«Время-не-ждёт»',
+    'dp-per-3': '«Уходящая натура»',
   },
   by: {
     firstName: 'імя',
@@ -208,6 +216,10 @@ const language = {
     'main-page': 'Галоўная',
     'search-page': 'Cпіс дзеячаў',
     'project-authors': 'Aўтары праекта',
+    'dapkiunas-desc': 'беларускі тэатральны дзеяч і арганізатар тэатральнай справы, аўтар першай пастаноўкі ў прафесійным тэатры п"есы Аляксандра Вампилова.',
+    'dp-per-1': 'Развітанне ў чэрвені',
+    'dp-per-2': 'Час-не-чакае',
+    'dp-per-3': 'Якая сыходзіць натура',
   },
 };
 
