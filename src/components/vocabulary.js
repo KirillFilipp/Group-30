@@ -65,6 +65,9 @@ const language = {
     'clear-dawn': '',
     'queen-spades': '',
     'aleksandrovskaya-desc': '',
+    'main-page': 'Main page',
+    'search-page': 'List of actors',
+    'project-authors': 'Project authors',
   },
   ru: {
     firstName: 'имя',
@@ -132,6 +135,9 @@ const language = {
     'clear-dawn': '«Ясный рассвет (белор.)русск.» А. Е. Туренкова',
     'queen-spades': '«Пиковая дама» П. И. Чайковского.',
     'aleksandrovskaya-desc': 'Белорусская советская оперная певица(сопрано), режиссёр, публицист и общественный деятель.',
+    'main-page': 'Главная',
+    'search-page': 'Список деятелей',
+    'project-authors': 'Авторы проекта',
   },
   by: {
     firstName: 'імя',
@@ -199,6 +205,9 @@ const language = {
     'clear-dawn': '',
     'queen-spades': '',
     'aleksandrovskaya-desc': '',
+    'main-page': 'Галоўная',
+    'search-page': 'Cпіс дзеячаў',
+    'project-authors': 'Aўтары праекта',
   },
 };
 
