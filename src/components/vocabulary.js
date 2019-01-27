@@ -16,6 +16,9 @@ const language = {
     'third-director-born': 'b.p. с. Anadyr',
     'fourth-director-born': 'b.p. с. Minsk',
     'fifth-director-born': 'b.p. с. St. Petersburg',
+    'main-page': 'Main page',
+    'search-page': 'List of actors',
+    'project-authors': 'Project authors',
   },
   ru: {
     firstName: 'имя',
@@ -34,6 +37,9 @@ const language = {
     'third-director-born': 'м.р. г. Анадырь',
     'fourth-director-born': 'м.р. г. Минск',
     'fifth-director-born': 'м.р. г. Санкт-Петербург',
+    'main-page': 'Главная',
+    'search-page': 'Список деятелей',
+    'project-authors': 'Авторы проекта',
   },
   by: {
     firstName: 'імя',
@@ -52,6 +58,9 @@ const language = {
     'third-director-born': 'м.н. г. Анадыр',
     'fourth-director-born': 'м.н. г. Менск',
     'fifth-director-born': 'м.н. Санкт-Пецярбург',
+    'main-page': 'Галоўная',
+    'search-page': 'Cпіс дзеячаў',
+    'project-authors': 'Aўтары праекта',
   },
 };
 
