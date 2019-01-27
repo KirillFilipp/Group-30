@@ -1,57 +1,142 @@
 <!DOCTYPE html>
-<html lang='ru'>
-<head>
-  <meta charset='UTF-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <title></title>
-  <link href='../../../dist/style.css' rel='stylesheet' />
-</head>
-<body>
-<div class='wrapper'>
-  <div class='container'>
-    <section class='person'>
-      <h1 class='person__name'>
-        <span class='lang' key='first-director'>Александровская Лариса Помпеевна</span>
-      </h1>
-      <div class='person__avatar'>
-        <img src='./images/larisa-pompeevna.jpg' alt='Александровская Лариса Помпеевна' class='person__img'>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="../../../dist/style.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <section class="person">
+          <h1 class="person__name">
+            <span class="lang" key="first-director"
+              >Александровская Лариса Помпеевна</span
+            >
+          </h1>
+          <div class="person__avatar">
+            <img
+              src="./images/Larisa_Pompeevna.jpg"
+              alt="Александровская Лариса Помпеевна"
+              class="person__img"
+            />
+          </div>
+          <div class="person__desc">
+            <p class="lang" key="aleksandrovskaya-desc">
+              Белорусская советская оперная певица (сопрано), режиссёр,
+              публицист и общественный деятель.
+            </p>
+            <p>
+              <span class="lang" key="years-of-life">Годы жизни:</span>
+              02.02.1902 - 23.05.1980
+            </p>
+          </div>
+        </section>
+        <section id="myTimeline" class="person-timeline"></section>
+        <section class="person-works">
+          <h2 class="works__title lang" key="creative-activity">
+            Творческая деятельность
+          </h2>
+          <p class="lang" key="performances">Постановки спектаклей</p>
+          <ul>
+            <li>
+              1951 —
+              <span class="lang" key="zaporozhets-danube"
+                >«Запорожец за Дунаем» С. С. Гулак-Артемовского</span
+              >
+            </li>
+            <li>
+              1951 —
+              <span class="lang" key="silent-don"
+                >«Тихий Дон» И. И. Дзержинского</span
+              >
+            </li>
+            <li>
+              1952 —
+              <span class="lang" key="scary-yard"
+                >«Страшный двор» С. Монюшко</span
+              >
+            </li>
+            <li>
+              1952 —
+              <span class="lang" key="mermaid"
+                >«Русалка» А. С. Даргомыжского</span
+              >
+            </li>
+            <li>
+              1952 —
+              <span class="lang" key="mazepa">«Мазепа» П. И. Чайковского</span>
+            </li>
+            <li>
+              1953 — <span class="lang" key="aida">«Аида» Дж. Верди</span>
+            </li>
+            <li>
+              1953 —
+              <span class="lang" key="girl-polesia"
+                >«Девушка из Полесья» Е. К. Тикоцкого</span
+              >
+            </li>
+            <li>
+              1954 —
+              <span class="lang" key="boris-godunov"
+                >«Борис Годунов» М. П. Мусоргского</span
+              >
+            </li>
+            <li>
+              1954 —
+              <span class="lang" key="traviata">«Травиата» Дж. Верди</span>
+            </li>
+            <li>
+              1955 —
+              <span class="lang" key="troubadour">«Трубадур» Дж. Верди</span>
+            </li>
+            <li>
+              1956 —
+              <span class="lang" key="nadezhda-durova"
+                >«Надежда Дурова» А. В. Богатырёва</span
+              >
+            </li>
+            <li>
+              1957 —
+              <span class="lang" key="mihass-podgorny"
+                >«Михась Подгорный» Е. К. Тикоцкого</span
+              >
+            </li>
+            <li>
+              1958 —
+              <span class="lang" key="clear-dawn"
+                >«Ясный рассвет (белор.)русск.» А. Е. Туренкова</span
+              >
+            </li>
+            <li>
+              1960 —
+              <span class="lang" key="queen-spades"
+                >«Пиковая дама» П. И. Чайковского.</span
+              >
+            </li>
+          </ul>
+        </section>
+        <section class="gallery">
+          <a href="./images/1.jpg" class="item"><img class="gallery-img" src="./images/1.jpg" alt="img"/></a>
+          <a href="./images/2.jpg" class="item"><img class="gallery-img"  src="./images/2.jpg" alt="img"/></a>
+          <a href="./images/3.jpg" class="item"><img class="gallery-img"  src="./images/3.jpg" alt="img"/></a>
+          <a href="./images/4.jpg" class="item"><img class="gallery-img"  src="./images/4.jpg" alt="img"/></a>
+        </section>
+        <section class="youtube"></section>
+        <section class="map">
+          <div>
+            <script
+              type="text/javascript"
+              charset="utf-8"
+              async
+              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adb45e67365397b9c8970665bc5db20c98ac652e42d0815b37a86f05730073b2a&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"
+            ></script>
+          </div>
+        </section>
       </div>
-      <div class='person__desc'>
-        <p class='lang' key='aleksandrovskaya-desc'>Белорусская советская оперная певица (сопрано), режиссёр, публицист и общественный деятель.</p>
-        <p><span class='lang' key='years-of-life'>Годы жизни:</span> 02.02.1902 - 23.05.1980</p>
-      </div>
-    </section>
-    <section class='person-timeline'></section>
-    <section class='person-works'>
-      <h2 class='works__title lang' key='creative-activity'>Творческая деятельность</h2>
-      <p class='lang' key='performances'>Постановки спектаклей</p>
-      <ul>
-        <li>1951 — <span class='lang' key='zaporozhets-danube'>«Запорожец за Дунаем» С. С. Гулак-Артемовского</span></li>
-        <li>1951 — <span class='lang' key='silent-don'>«Тихий Дон» И. И. Дзержинского</span></li>
-        <li>1952 — <span class='lang' key='scary-yard'>«Страшный двор» С. Монюшко</span></li>
-        <li>1952 — <span class='lang' key='mermaid'>«Русалка» А. С. Даргомыжского</span></li>
-        <li>1952 — <span class='lang' key='mazepa'>«Мазепа» П. И. Чайковского</span></li>
-        <li>1953 — <span class='lang' key='aida'>«Аида» Дж. Верди</span></li>
-        <li>1953 — <span class='lang' key='girl-polesia'>«Девушка из Полесья» Е. К. Тикоцкого</span></li>
-        <li>1954 — <span class='lang' key='boris-godunov'>«Борис Годунов» М. П. Мусоргского</span></li>
-        <li>1954 — <span class='lang' key='traviata'>«Травиата» Дж. Верди</span></li>
-        <li>1955 — <span class='lang' key='troubadour'>«Трубадур» Дж. Верди</span></li>
-        <li>1956 — <span class='lang' key='nadezhda-durova'>«Надежда Дурова» А. В. Богатырёва</span></li>
-        <li>1957 — <span class='lang' key='mihass-podgorny'>«Михась Подгорный» Е. К. Тикоцкого</span></li>
-        <li>1958 — <span class='lang' key='clear-dawn'>«Ясный рассвет (белор.)русск.» А. Е. Туренкова</span></li>
-        <li>1960 — <span class='lang' key='queen-spades'>«Пиковая дама» П. И. Чайковского.</span></li>
-      </ul>
-    </section>
-    <section class='gallery'></section>
-    <section class='youtube'></section>
-    <section class='map'>
-      <div>
-        <script type='text/javascript' charset='utf-8' async src='https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adb45e67365397b9c8970665bc5db20c98ac652e42d0815b37a86f05730073b2a&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true'></script>
-      </div>
-    </section>
-  </div>
-</div>
+    </div>
 
-<script src= '../../../dist/bundle.js' ></script>
-</body>
+    <script src="../../../dist/bundle.js"></script>
+  </body>
 </html>
