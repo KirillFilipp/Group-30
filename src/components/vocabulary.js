@@ -75,6 +75,11 @@ const language = {
     'bn-desc': 'Belarusian actor, director, theatrical figure, founder of the first professional national Belarusian theatre.',
     'bn-per-1': 'By revision',
     'bn-per-2': 'In the winter evening',
+    'sm-desc': 'Soviet Opera Director, people\'s artist of the USSR.',
+    'sm-per-1': '"La Traviata"',
+    'sm-per-2': '"The Queen of Spades"',
+    'sm-per-3': '"Prince Igor"',
+    'sm-per-4': '"Keto and Kote"',
   },
   ru: {
     firstName: 'имя',
@@ -152,6 +157,11 @@ const language = {
     'bn-desc': 'Белорусский актёр, режиссёр, театральный деятель, основатель первого профессионального национального белорусского театра.',
     'bn-per-1': 'По ревиззии',
     'bn-per-2': 'В зимний вечер',
+    'sm-desc': 'Cоветский оперный режиссёр, народный артист СССР.',
+    'sm-per-1': '«Травиата»',
+    'sm-per-2': '«Пиковая дама»',
+    'sm-per-3': '«Князь Игорь»',
+    'sm-per-4': '«Кето и Котэ»',
   },
   by: {
     firstName: 'імя',
@@ -229,6 +239,11 @@ const language = {
     'bn-desc': 'Беларускі акцёр, рэжысёр, тэатральны дзеяч, заснавальнік першага прафесійнага нацыянальнага беларускага тэатра.',
     'bn-per-1': 'Па рэвіззіі',
     'bn-per-2': 'У зімовы вечар',
+    'sm-desc': 'Савецкі оперны рэжысёр, народны артыст СССР.',
+    'sm-per-1': '"Травіята"',
+    'sm-per-2': '"Пікавая дама"',
+    'sm-per-3': '"Князь Ігар"',
+    'sm-per-4': '"Кето і Котэ"',
   },
 };
 
