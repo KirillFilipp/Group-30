@@ -72,6 +72,9 @@ const language = {
     'dp-per-1': 'Farewell to June',
     'dp-per-2': 'Time is not waiting',
     'dp-per-3': 'Leaving nature',
+    'bn-desc': 'Belarusian actor, director, theatrical figure, founder of the first professional national Belarusian theatre.',
+    'bn-per-1': 'By revision',
+    'bn-per-2': 'In the winter evening',
   },
   ru: {
     firstName: 'имя',
@@ -146,6 +149,9 @@ const language = {
     'dp-per-1': '«Прощание в июне»',
     'dp-per-2': '«Время-не-ждёт»',
     'dp-per-3': '«Уходящая натура»',
+    'bn-desc': 'Белорусский актёр, режиссёр, театральный деятель, основатель первого профессионального национального белорусского театра.',
+    'bn-per-1': 'По ревиззии',
+    'bn-per-2': 'В зимний вечер',
   },
   by: {
     firstName: 'імя',
@@ -220,6 +226,9 @@ const language = {
     'dp-per-1': 'Развітанне ў чэрвені',
     'dp-per-2': 'Час-не-чакае',
     'dp-per-3': 'Якая сыходзіць натура',
+    'bn-desc': 'Беларускі акцёр, рэжысёр, тэатральны дзеяч, заснавальнік першага прафесійнага нацыянальнага беларускага тэатра.',
+    'bn-per-1': 'Па рэвіззіі',
+    'bn-per-2': 'У зімовы вечар',
   },
 };
 
