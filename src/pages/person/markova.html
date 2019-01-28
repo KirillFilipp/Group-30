@@ -5,22 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
     <link href="../../../dist/style.css" rel="stylesheet" />
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ddf3c75d-045f-4180-8c68-440481e4948f&lang=ru_RU" type="text/javascript"></script>
   </head>
   <body>
     <div class="wrapper">
       <div class="container">
         <section class="person">
           <h1 class="person__name">
-            <span class="lang" key="fourth-director"
-              >Маркова Ирина Васильевна</span
-            >
+            <span class="lang" key="fourth-director">Маркова Ирина Васильевна</span>
           </h1>
           <div class="person__avatar">
-            <img
-              src="./images/markova-irina.jpg"
-              alt="Маркова Ирина Васильевна"
-              class="person__img"
-            />
+            <img src="./images/markova-irina.jpg" alt="Маркова Ирина Васильевна" class="person__img"/>
           </div>
           <div class="person__desc">
             <p class="lang" key="mr-decs">
@@ -32,10 +27,7 @@
             </p>
           </div>
         </section>
-        <section
-          class="person-timeline cd-container timeline-bg"
-          id="cd-timeline"
-        >
+        <section class="person-timeline cd-container timeline-bg" id="cd-timeline">
           <div class="cd-timeline-block">
             <div class="cd-timeline-img cd-picture"></div>
             <!-- cd-timeline-img -->
@@ -124,15 +116,21 @@
             <li>
               2003 – <span class="lang" key="mr-per-1">Галатея Мегаполиса</span>
             </li>
-            <li>2004 – <span class="lang" key="mr-per-2">Мечтой</span></li>
-            <li>2004 – <span class="lang" key="mr-per-3">Музыка</span></li>
+            <li>
+              2004 – <span class="lang" key="mr-per-2">Мечтой</span>
+            </li>
+            <li>
+              2004 – <span class="lang" key="mr-per-3">Музыка</span>
+            </li>
             <li>
               2005 — <span class="lang" key="mr-per-4">Счастливый дождь</span>
             </li>
             <li>
               2005 — <span class="lang" key="mr-per-5">Дорога к ангелу</span>
             </li>
-            <li>2007 — <span class="lang" key="mr-per-6">Карта Таро</span></li>
+            <li>
+              2007 — <span class="lang" key="mr-per-6">Карта Таро</span>
+            </li>
             <li>
               2007 — <span class="lang" key="mr-per-7">Первая любовь</span>
             </li>
@@ -143,8 +141,7 @@
               2008 — <span class="lang" key="mr-per-9">Исчезновение звука</span>
             </li>
             <li>
-              2009 —
-              <span class="lang" key="mr-per-10">Пробуждение, Защита</span>
+              2009 — <span class="lang" key="mr-per-10">Пробуждение, Защита</span>
             </li>
             <li>
               2010 — <span class="lang" key="mr-per-11">Этюд на тему Кино</span>
@@ -152,26 +149,27 @@
             <li>
               2011 — <span class="lang" key="mr-per-12">Случайная фея</span>
             </li>
-            <li>2012 — <span class="lang" key="mr-per-13">Эхо</span></li>
             <li>
-              2012 —
-              <span class="lang" key="mr-per-14"
-                >Записки заурядной личности</span
-              >
+              2012 — <span class="lang" key="mr-per-13">Эхо</span>
+            </li>
+            <li>
+              2012 — <span class="lang" key="mr-per-14">Записки заурядной личности</span>
             </li>
             <li>
               2016 — <span class="lang" key="mr-per-15">Можно я спою?</span>
             </li>
-            <li>2017 — <span class="lang" key="mr-per-16">Непутевые</span></li>
+            <li>
+              2017 — <span class="lang" key="mr-per-16">Непутевые</span>
+            </li>
           </ul>
         </section>
         <section class="gallery">
-          <a href="./images/1mr.jpg" class="item"
-            ><img class="gallery-img" src="./images/1mr.jpg" alt="img"
-          /></a>
-          <a href="./images/2mr.jpg" class="item"
-            ><img class="gallery-img" src="./images/2mr.jpg" alt="img"
-          /></a>
+          <a href="./images/1mr.jpg" class="item">
+            <img class="gallery-img" src="./images/1mr.jpg" alt="img"/>
+          </a>
+          <a href="./images/2mr.jpg" class="item">
+            <img class="gallery-img" src="./images/2mr.jpg" alt="img"/>
+          </a>
         </section>
         <section class="youtube">
           <p class="lang" key="videogallery">Видео о режиссере</p>
@@ -179,12 +177,7 @@
         </section>
         <section class="map">
           <div>
-            <script
-              type="text/javascript"
-              charset="utf-8"
-              async
-              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adb45e67365397b9c8970665bc5db20c98ac652e42d0815b37a86f05730073b2a&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"
-            ></script>
+            <div id='map'></div>
           </div>
         </section>
       </div>

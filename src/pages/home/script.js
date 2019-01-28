@@ -5,8 +5,8 @@ export default function randomAuthor() {
       '../src/pages/person/images/larisa-pompeevna.jpg',
       '../src/pages/person/images/Vadzim_Dapkiunas.jpg',
       '../src/pages/person/images/Ihnat_Bujnicki.jpg',
-      '../src/pages/person/images/Markova-Irina.jpg',
-      '../src/pages/person/images/Smolych_Dmitriy.jpg',
+      '../src/pages/person/images/markova-irina.jpg',
+      '../src/pages/person/images/smolych_Dmitriy.jpg',
     ];
     const name = [
       'first-director',

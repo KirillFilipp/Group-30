@@ -5,22 +5,17 @@
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title></title>
     <link href="../../../dist/style.css" rel="stylesheet" />
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ddf3c75d-045f-4180-8c68-440481e4948f&lang=ru_RU" type="text/javascript"></script>
   </head>
   <body>
     <div class="wrapper">
       <div class="container">
         <section class="person">
           <h1 class="person__name">
-            <span class="lang" key="fifth-director"
-              >Смолич Дмитрий Николаевич</span
-            >
+            <span class="lang" key="fifth-director">Смолич Дмитрий Николаевич</span>
           </h1>
           <div class="person__avatar">
-            <img
-              src="./images/smolych_Dmitriy.jpg"
-              alt="Смолич Дмитрий Николаевич"
-              class="person__img"
-            />
+            <img src="./images/smolych_Dmitriy.jpg" alt="Смолич Дмитрий Николаевич" class="person__img"/>
           </div>
           <div class="person__desc">
             <p class="lang" key="sm-desc">
@@ -32,10 +27,7 @@
             </p>
           </div>
         </section>
-        <section
-          class="person-timeline cd-container timeline-bg"
-          id="cd-timeline"
-        >
+        <section class="person-timeline cd-container timeline-bg" id="cd-timeline">
           <div class="cd-timeline-block">
             <div class="cd-timeline-img cd-picture"></div>
             <!-- cd-timeline-img -->
@@ -155,7 +147,9 @@
           </h2>
           <p class="lang" key="performances">Постановки спектаклей</p>
           <ul>
-            <li>1945 – <span class="lang" key="sm-per-1">«Травиата»</span></li>
+            <li>
+              1945 – <span class="lang" key="sm-per-1">«Травиата»</span>
+            </li>
             <li>
               1954 — <span class="lang" key="sm-per-2">«Пиковая дама»</span>
             </li>
@@ -168,18 +162,18 @@
           </ul>
         </section>
         <section class="gallery">
-          <a href="./images/1sm.jpg" class="item"
-            ><img class="gallery-img" src="./images/1sm.jpg" alt="img"
-          /></a>
-          <a href="./images/2sm.jpg" class="item"
-            ><img class="gallery-img" src="./images/2sm.jpg" alt="img"
-          /></a>
-          <a href="./images/3sm.jpg" class="item"
-            ><img class="gallery-img" src="./images/3sm.jpg" alt="img"
-          /></a>
-          <a href="./images/4sm.jpg" class="item"
-            ><img class="gallery-img" src="./images/4sm.jpg" alt="img"
-          /></a>
+          <a href="./images/1sm.jpg" class="item">
+            <img class="gallery-img" src="./images/1sm.jpg" alt="img"/>
+          </a>
+          <a href="./images/2sm.jpg" class="item">
+            <img class="gallery-img" src="./images/2sm.jpg" alt="img"/>
+          </a>
+          <a href="./images/3sm.jpg" class="item">
+            <img class="gallery-img" src="./images/3sm.jpg" alt="img"/>
+          </a>
+          <a href="./images/4sm.jpg" class="item">
+            <img class="gallery-img" src="./images/4sm.jpg" alt="img"/>
+          </a>
         </section>
         <section class="youtube">
           <p class="lang" key="videogallery">Видео о режиссере</p>
@@ -187,12 +181,7 @@
         </section>
         <section class="map">
           <div>
-            <script
-              type="text/javascript"
-              charset="utf-8"
-              async
-              src="https://api-maps.yandex.ru/services/constructor/1.0/js/?um=constructor%3Adb45e67365397b9c8970665bc5db20c98ac652e42d0815b37a86f05730073b2a&amp;width=100%25&amp;height=400&amp;lang=ru_RU&amp;scroll=true"
-            ></script>
+            <div id='map'></div>
           </div>
         </section>
       </div>
