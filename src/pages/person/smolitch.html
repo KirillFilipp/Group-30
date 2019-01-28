@@ -1,46 +1,189 @@
 <!DOCTYPE html>
-<html lang='ru'>
-<head>
-  <meta charset='UTF-8'>
-  <meta name='viewport' content='width=device-width, initial-scale=1'>
-  <title></title>
-  <link href='../../../dist/style.css' rel='stylesheet' />
-  <script src="https://api-maps.yandex.ru/2.1/?apikey=ddf3c75d-045f-4180-8c68-440481e4948f&lang=ru_RU" type="text/javascript"></script>
-</head>
-<body>
-<div class='wrapper'>
-  <div class='container'>
-    <section class='person'>
-      <h1 class='person__name'>
-        <span class='lang' key='fifth-director'>Смолич Дмитрий Николаевич</span>
-      </h1>
-      <div class='person__avatar'>
-        <img src='./images/smolych_Dmitriy.jpg' alt='Смолич Дмитрий Николаевич' class='person__img'>
-      </div>
-      <div class='person__desc'>
-        <p class='lang' key='sm-desc'>Cоветский оперный режиссёр, народный артист СССР.</p>
-        <p><span class='lang' key='years-of-life'>Годы жизни:</span> 11.04.1919 - 28.04.1987</p>
-      </div>
-    </section>
-    <section class='person-timeline'></section>
-    <section class='person-works'>
-      <h2 class='works__title lang' key='creative-activity'>Творческая деятельность</h2>
-      <p class='lang' key='performances'>Постановки спектаклей</p>
-      <ul>
-        <li>1945 – <span class='lang' key='sm-per-1'>«Травиата»</span></li>
-        <li>1954 — <span class='lang' key='sm-per-2'>«Пиковая дама»</span></li>
-        <li>1956 — <span class='lang' key='sm-per-3'>«Князь Игорь»</span></li>
-        <li>1962 — <span class='lang' key='sm-per-4'>«Кето и Котэ»</span></li>
-      </ul>
-    </section>
-    <section class='gallery'></section>
-    <section class='youtube'></section>
-    <section class='map'>
-      <div id='map'></div>
-    </section>
-  </div>
-</div>
+<html lang="ru">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title></title>
+    <link href="../../../dist/style.css" rel="stylesheet" />
+    <script src="https://api-maps.yandex.ru/2.1/?apikey=ddf3c75d-045f-4180-8c68-440481e4948f&lang=ru_RU" type="text/javascript"></script>
+  </head>
+  <body>
+    <div class="wrapper">
+      <div class="container">
+        <section class="person">
+          <h1 class="person__name">
+            <span class="lang" key="fifth-director">Смолич Дмитрий Николаевич</span>
+          </h1>
+          <div class="person__avatar">
+            <img src="./images/smolych_Dmitriy.jpg" alt="Смолич Дмитрий Николаевич" class="person__img"/>
+          </div>
+          <div class="person__desc">
+            <p class="lang" key="sm-desc">
+              Cоветский оперный режиссёр, народный артист СССР.
+            </p>
+            <p>
+              <span class="lang" key="years-of-life">Годы жизни:</span>
+              11.04.1919 - 28.04.1987
+            </p>
+          </div>
+        </section>
+        <section class="person-timeline cd-container timeline-bg" id="cd-timeline">
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture"></div>
+            <!-- cd-timeline-img -->
 
-<script src= '../../../dist/bundle.js' ></script>
-</body>
+            <div class="cd-timeline-content">
+              <p class="lang" key="sm-1">
+                Окончил оперно-драматическую студию им. К. Станиславского в
+                Москве (ныне Электротеатр Станиславский).
+              </p>
+
+              <span class="cd-date">1941</span>
+            </div>
+            <!-- cd-timeline-content -->
+          </div>
+          <!-- cd-timeline-block -->
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-movie"></div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <p class="lang" key="sm-2">
+                Стал режиссёром Киевского театра оперы и балета им. Т. Шевченко
+              </p>
+
+              <span class="cd-date">1941</span>
+            </div>
+            <!-- cd-timeline-content -->
+          </div>
+          <!-- cd-timeline-block -->
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-picture"></div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <p class="lang" key="sm-3">
+                Отдал пост режиссёра Киевского театра оперы и балета им. Т.
+                Шевченко. Стал главным режиссёром Челябинского театра оперы и
+                балета им. М. Глинки.
+              </p>
+
+              <span class="cd-date">1955</span>
+            </div>
+            <!-- cd-timeline-content -->
+          </div>
+          <!-- cd-timeline-block -->
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location"></div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <p class="lang" key="sm-4">
+                Отдал пост главным режиссёром Челябинского театра оперы и балета
+                им. М. Глинки. Стал главным режиссёром Одесского театра оперы и
+                балета.
+              </p>
+
+              <span class="cd-date">1958</span>
+            </div>
+            <!-- cd-timeline-content -->
+          </div>
+          <!-- cd-timeline-block -->
+
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location"></div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <p class="lang" key="sm-5">
+                Отдал пост главного режиссёра Одесского театра оперы и балета.
+                Стал художественным руководителем и главным режиссёром
+                Белорусского Большого театра оперы и балета в Минске.
+              </p>
+
+              <span class="cd-date">1962</span>
+            </div>
+            <!-- cd-timeline-content -->
+          </div>
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location"></div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <p class="lang" key="sm-6">
+                Отдал пост художественного руководителя и главного режиссёра
+                Белорусского Большого театра оперы и балета в Минске. Стал
+                главным режиссёром Львовского оперного театра им. И. Франко
+                (ныне — имени С. А. Крушельницкой).
+              </p>
+
+              <span class="cd-date">1969</span>
+            </div>
+            <!-- cd-timeline-content -->
+          </div>
+          <div class="cd-timeline-block">
+            <div class="cd-timeline-img cd-location"></div>
+            <!-- cd-timeline-img -->
+
+            <div class="cd-timeline-content">
+              <p class="lang" key="sm-7">
+                Отдал пост главного режиссёра Львовского оперного театра им. И.
+                Франко. Стал главным режиссёром Киевского театра оперы и балета
+                им. Т. Шевченко.
+              </p>
+
+              <span class="cd-date">1970</span>
+            </div>
+            <!-- cd-timeline-content -->
+          </div>
+          <!-- cd-timeline-block -->
+        </section>
+        <section class="person-works">
+          <h2 class="works__title lang" key="creative-activity">
+            Творческая деятельность
+          </h2>
+          <p class="lang" key="performances">Постановки спектаклей</p>
+          <ul>
+            <li>
+              1945 – <span class="lang" key="sm-per-1">«Травиата»</span>
+            </li>
+            <li>
+              1954 — <span class="lang" key="sm-per-2">«Пиковая дама»</span>
+            </li>
+            <li>
+              1956 — <span class="lang" key="sm-per-3">«Князь Игорь»</span>
+            </li>
+            <li>
+              1962 — <span class="lang" key="sm-per-4">«Кето и Котэ»</span>
+            </li>
+          </ul>
+        </section>
+        <section class="gallery">
+          <a href="./images/1sm.jpg" class="item">
+            <img class="gallery-img" src="./images/1sm.jpg" alt="img"/>
+          </a>
+          <a href="./images/2sm.jpg" class="item">
+            <img class="gallery-img" src="./images/2sm.jpg" alt="img"/>
+          </a>
+          <a href="./images/3sm.jpg" class="item">
+            <img class="gallery-img" src="./images/3sm.jpg" alt="img"/>
+          </a>
+          <a href="./images/4sm.jpg" class="item">
+            <img class="gallery-img" src="./images/4sm.jpg" alt="img"/>
+          </a>
+        </section>
+        <section class="youtube"></section>
+        <section class="map">
+          <div>
+            <div id='map'></div>
+          </div>
+        </section>
+      </div>
+    </div>
+
+    <script src="../../../dist/bundle.js"></script>
+  </body>
 </html>
