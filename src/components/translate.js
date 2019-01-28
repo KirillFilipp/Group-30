@@ -12,7 +12,7 @@ export default function choiceLanguage(language) {
     if (lang === 'by') {
       localStorage.setItem('lang', 'by');
     }
-    $('.lang').each(function (index, element) {
+    $('.lang').each(function () {
       $(this).text(language[lang][$(this).attr('key')]);
     });
   });
