@@ -1,5 +1,7 @@
 import 'bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+ import './components/timeLine/styleForTimeline.css';
+import './components/gallery/styleForGallery.css';
 import './components/saveLanguageContext';
 import search from './pages/search/script';
 import addHeader from './components/header';
@@ -7,9 +9,12 @@ import addFooter from './components/footer';
 import choiceLanguage from './components/translate';
 import language from './components/vocabulary';
 import randomAuthor from './pages/home/script';
+import './components/timeLine/handleTimelime';
+import './components/gallery/magnific-popup.min';
+import './components/gallery/gallery';
 
 search();
 addHeader();
 addFooter();
-choiceLanguage(language);
+choiceLanguage(language); 
 randomAuthor();
