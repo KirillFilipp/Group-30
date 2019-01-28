@@ -1,6 +1,6 @@
 import $ from 'jquery';
 
-$(document).ready(($) => {
+$(document).ready(() => {
   const $timelineBlock = $('.cd-timeline-block');
 
   // hide timeline blocks which are outside the viewport

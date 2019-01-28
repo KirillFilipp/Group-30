@@ -1,5 +1,6 @@
+import BigPicture from 'bigpicture';
+
 export default function overlay() {
-  const BigPicture = require('bigpicture');
   document.getElementById('youtube-overlay').onclick = function () {
     BigPicture({
       el: this,

@@ -12,7 +12,6 @@ import randomAuthor from './pages/home/script';
 import placemarks from './components/placemarks';
 import addMap from './components/addMap';
 import './components/timeLine/handleTimelime';
-import './components/gallery/magnific-popup.min';
 import './components/gallery/gallery';
 import overlay from './pages/person/script';
 

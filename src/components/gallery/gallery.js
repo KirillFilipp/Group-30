@@ -1,4 +1,5 @@
 import $ from 'jquery';
+import 'magnific-popup';
 
 $(document).ready(() => {
   $('.item').magnificPopup({
