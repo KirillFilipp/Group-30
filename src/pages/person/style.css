@@ -155,3 +155,9 @@
 .mfp-fade.mfp-wrap.mfp-removing .mfp-content {
   opacity: 0;
 }
+
+.youtube {
+  height: 480px;
+  align-content: center;
+  object-fit: cover;
+}
