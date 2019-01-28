@@ -7,9 +7,12 @@ import addFooter from './components/footer';
 import choiceLanguage from './components/translate';
 import language from './components/vocabulary';
 import randomAuthor from './pages/home/script';
+import placemarks from './components/placemarks';
+import addMap from './components/addMap';
 
 search();
 addHeader();
 addFooter();
 choiceLanguage(language);
+addMap(placemarks);
 randomAuthor();
