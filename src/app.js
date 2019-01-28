@@ -14,6 +14,7 @@ import addMap from './components/addMap';
 import './components/timeLine/handleTimelime';
 import './components/gallery/magnific-popup.min';
 import './components/gallery/gallery';
+import overlay from './pages/person/script';
 
 search();
 addHeader();
@@ -21,3 +22,4 @@ addFooter();
 choiceLanguage(language);
 addMap(placemarks);
 randomAuthor();
+overlay();
