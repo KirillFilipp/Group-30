@@ -38,6 +38,11 @@
   margin: 50px 0;
 }
 
+#map {
+  width: 100%;
+  height: 400px;
+}
+
 /*gallery*/
 
 .gallery {
@@ -45,6 +50,7 @@
   justify-content: center;
   flex-wrap: wrap;
 }
+
 .gallery a{
   margin: 0 10px 20px 10px;
 }
@@ -54,12 +60,14 @@
   height: 250px;
   object-fit: contain;
 }
+
 @media(max-width: 600px){
   .gallery-img {
     width: 200px;
     height: 200px;
   }
 }
+
 @media(max-width: 462px){
   .gallery {
     justify-content: center;
