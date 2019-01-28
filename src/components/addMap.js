@@ -15,5 +15,7 @@ export default function addMap(placemarks) {
     map.geoObjects.add(placemark);
   }
 
-  window.ymaps.ready(initMap);
+  if (document.querySelector('.map')) {
+    window.ymaps.ready(initMap);
+  }
 }

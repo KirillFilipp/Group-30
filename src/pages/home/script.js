@@ -21,6 +21,8 @@ export default function randomAuthor() {
     '../src/pages/person/markova.html',
     '../src/pages/person/smolitch.html',
   ];
-  const a = Math.floor(Math.random() * image.length);
-  author.innerHTML = `<img id="photo-author" src=${image[a]} alt=${name[a]}><figcaption><a id="name-author" href=${linkDirectors[a]} target="_blank">${name[a]}</a></figcaption>`;
+  if (author) {
+    const a = Math.floor(Math.random() * image.length);
+    author.innerHTML = `<img id="photo-author" src=${image[a]} alt=${name[a]}><figcaption><a id="name-author" href=${linkDirectors[a]} target="_blank">${name[a]}</a></figcaption>`;
+  }
 }
